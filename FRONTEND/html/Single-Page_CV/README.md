@@ -1,6 +1,6 @@
 # Single Page CV
 
- A simple, semantic **single-page CV** built using HTML as part of my full-stack development learning journey.
+ A simple, semantic **single-page CV** built as part of my full-stack development learning journey.
 
  This project is based on the [roadmap.sh Single-Page CV project](<https://roadmap.sh/projects/single-page-cv>).
 
@@ -12,23 +12,23 @@
 
  - Writing semantic HTML
 - Structuring a CV using appropriate HTML elements
-- Using headings, sections and articles correctly
+- Using headings, sections, and articles correctly
 - Adding contact information and links
 - Adding SEO-related meta tags
 - Adding Open Graph meta tags
 - Adding a favicon
 - Practicing clean and accessible HTML structure
+- Using Tailwind CSS for styling
 
  ## Technologies Used
 
  - HTML5
-
- here we used css framework tailwind and JavaScript is used in this project.
+- Tailwind CSS
 
  ## Project Structure
 
 ```
-single-page-cv/
+Single-Page_CV/
 ├── index.html
 ├── favicon.ico
 └── README.md
@@ -51,15 +51,13 @@ single-page-cv/
 3. Select **Open with Live Server**.
 4. The CV will open in your browser.
 
- ## Live Demo
+ ## Project Page
 
- Coming soon.
+ [View the live Single Page CV](https://sunilkumarkv.github.io/full-stack-projects/FRONTEND/html/Single-Page_CV/)
 
- The live project URL will be added after deploying the project using GitHub Pages.
+ ## Repository
 
- ## Repo
-
- https://github.com/SunilKumarKV/full-stack-projects/tree/main/FRONTEND/html/Single-Page_CV
+ View the source code on GitHub
 
  ## What I Learned
 
@@ -67,17 +65,19 @@ single-page-cv/
 
  - Semantic HTML
 - HTML5 document structure
-- HTML headings and sections
+- HTML headings, sections, and articles
 - SEO metadata
 - Open Graph metadata
 - Accessibility basics
+- Favicon implementation
+- Tailwind CSS
 - Project organization
 - Git and GitHub workflow
+- Deploying a static website with GitHub Pages
 
  ## Reference
 
  [roadmap.sh — Single-Page CV](<https://roadmap.sh/projects/single-page-cv>)
- (https://roadmap.sh/projects/single-page-cv)
 
  ## Project Status
 
