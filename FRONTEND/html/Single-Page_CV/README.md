@@ -77,6 +77,7 @@ single-page-cv/
  ## Reference
 
  [roadmap.sh — Single-Page CV](<https://roadmap.sh/projects/single-page-cv>)
+ (https://roadmap.sh/projects/single-page-cv)
 
  ## Project Status
 
