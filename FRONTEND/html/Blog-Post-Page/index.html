@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A practical guide to building semantic HTML blog posts with meaningful elements, accessible structure, and maintainable markup.">
+  <title>Building Better Blog Posts with Semantic HTML</title>
+</head>
+<body>
+  <header>
+    <p><strong>Sunil's Web Notes</strong></p>
+    <nav aria-label="Primary navigation">
+      <ul>
+        <li><a href="index.html">Blog home</a></li>
+        <li><a href="#semantic-structure">Semantic structure</a></li>
+        <li><a href="#practical-example">Practical example</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <article>
+      <header>
+        <h1>Building Better Blog Posts with Semantic HTML</h1>
+        <p>Published on <time datetime="2026-09-16">September 16, 2026</time> by <strong>Sunil Kumar K V</strong></p>
+      </header>
+
+      <p>
+        A well-structured blog post is more than a collection of paragraphs.
+        <strong>Semantic HTML</strong> gives each piece of content a meaningful
+        role, making the page easier for readers, screen readers, and search
+        engines to understand.
+      </p>
+
+      <figure>
+        <img
+          src="https://images.unsplash.com/photo-1499750310107-5fef28a66643?auto=format&fit=crop&w=1200&q=80"
+          alt="Laptop, notebook, and coffee on a desk while writing a blog post"
+          width="1200"
+          height="800"
+        >
+        <figcaption>A simple workspace for planning and writing a technical blog post.</figcaption>
+      </figure>
+
+      <section id="semantic-structure">
+        <h2>Why Semantic Structure Matters</h2>
+        <p>
+          Semantic elements describe what content means instead of only how it
+          should look. An <code>&lt;article&gt;</code> represents a self-contained
+          piece of content, while headings create a clear document hierarchy.
+        </p>
+
+        <h3>A useful content hierarchy</h3>
+        <p>Before writing, identify the main idea and organize supporting information around it:</p>
+        <ol>
+          <li>Start with one clear <code>&lt;h1&gt;</code> for the post title.</li>
+          <li>Use <code>&lt;h2&gt;</code> elements for major sections.</li>
+          <li>Use <code>&lt;h3&gt;</code> elements for subsections within an <code>&lt;h2&gt;</code>.</li>
+          <li>Keep paragraphs focused on one idea at a time.</li>
+        </ol>
+
+        <blockquote>
+          <p>Good structure makes content easier to understand before any visual styling is added.</p>
+          <cite>— A practical principle for semantic web writing</cite>
+        </blockquote>
+      </section>
+
+      <section id="practical-example">
+        <h2>A Practical HTML Example</h2>
+        <p>
+          When writing a technical explanation, use code elements for code and
+          normal text for the explanation around it. For example:
+        </p>
+
+        <pre><code>&lt;article&gt;
+  &lt;h1&gt;My Blog Post&lt;/h1&gt;
+  &lt;p&gt;This is the introduction.&lt;/p&gt;
+&lt;/article&gt;</code></pre>
+
+        <p>
+          The code above is easier to understand because the browser can
+          distinguish the example from the surrounding prose. The
+          <em>meaning</em> of the markup is more important than its appearance.
+        </p>
+
+        <h3>Use links that describe their destination</h3>
+        <p>
+          To continue learning, explore the
+          <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/article">MDN article element documentation</a>
+          and the
+          <a href="https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Structuring_documents">MDN guide to structuring HTML documents</a>.
+        </p>
+      </section>
+
+      <section>
+        <h2>Final Takeaways</h2>
+        <ul>
+          <li>Choose HTML elements according to the meaning of the content.</li>
+          <li>Keep heading levels in a logical order.</li>
+          <li>Use lists, quotes, and code blocks for the content they represent.</li>
+          <li>Write descriptive link text so destinations are clear.</li>
+          <li>Provide useful alternative text for meaningful images.</li>
+        </ul>
+
+        <p>
+          Semantic HTML creates a strong foundation for future CSS and
+          JavaScript without requiring the document structure to be rewritten.
+        </p>
+      </section>
+
+      <footer>
+        <p>Thanks for reading. Keep building and learning.</p>
+      </footer>
+    </article>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Sunil Kumar K V. All rights reserved.</p>
+  </footer>
+</body>
+</html>
