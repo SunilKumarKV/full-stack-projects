@@ -5,7 +5,7 @@ My projects and learning journey toward becoming a full-stack developer.
 ## Projects
 
 ### HTML
-- Single Page CV
+- [Single Page CV](https://sunilkumarkv.github.io/full-stack-projects/FRONTEND/html/Single-Page_CV/)
 
 ### CSS
 - Coming soon
