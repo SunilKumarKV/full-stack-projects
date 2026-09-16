@@ -4,7 +4,7 @@ My projects and learning journey toward becoming a full-stack developer.
 
 ## Projects
 
-### HTML
+### HTML - [readme link](https://roadmap.sh/projects/single-page-cv)
 - [Single Page CV](https://sunilkumarkv.github.io/full-stack-projects/FRONTEND/html/Single-Page_CV/)
 
 ### CSS
