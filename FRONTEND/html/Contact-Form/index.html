@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Form - Sunil Kumar K V</title>
+</head>
+<body>
+  <header>
+    <h1>Contact Me</h1>
+    <p>Have a question or want to discuss a project? Send me a message.</p>
+  </header>
+
+  <main>
+    <form action="https://example.com/submit" method="post">
+      <p>
+        <label for="full-name">Full Name</label>
+        <input
+          type="text"
+          id="full-name"
+          name="full_name"
+          autocomplete="name"
+          required
+        >
+      </p>
+
+      <p>
+        <label for="email">Email Address</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          autocomplete="email"
+          required
+        >
+      </p>
+
+      <p>
+        <label for="subject">Subject</label>
+        <select id="subject" name="subject" required>
+          <option value="">Please select a subject</option>
+          <option value="project">Project enquiry</option>
+          <option value="collaboration">Collaboration</option>
+          <option value="job-opportunity">Job opportunity</option>
+          <option value="general">General question</option>
+        </select>
+      </p>
+
+      <p>
+        <label for="message">Message</label><br>
+        <textarea
+          id="message"
+          name="message"
+          rows="8"
+          cols="50"
+          minlength="20"
+          required
+        ></textarea>
+      </p>
+
+      <fieldset>
+        <legend>How did you hear about us?</legend>
+
+        <p>
+          <input type="radio" id="source-search" name="source" value="search">
+          <label for="source-search">Search engine</label>
+        </p>
+
+        <p>
+          <input type="radio" id="source-social" name="source" value="social-media">
+          <label for="source-social">Social media</label>
+        </p>
+
+        <p>
+          <input type="radio" id="source-github" name="source" value="github">
+          <label for="source-github">GitHub</label>
+        </p>
+
+        <p>
+          <input type="radio" id="source-friend" name="source" value="friend">
+          <label for="source-friend">Friend or colleague</label>
+        </p>
+      </fieldset>
+
+      <p>
+        <input type="checkbox" id="newsletter" name="newsletter" value="yes">
+        <label for="newsletter">Subscribe me to the newsletter</label>
+      </p>
+
+      <button type="submit">Send Message</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Sunil Kumar K V. All rights reserved.</p>
+  </footer>
+</body>
+</html>
