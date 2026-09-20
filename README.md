@@ -10,6 +10,7 @@ My projects and learning journey toward becoming a full-stack developer.
 - [Blog Post Page](https://sunilkumarkv.github.io/full-stack-projects/FRONTEND/html/Blog-Post-Page/) & [readme link](https://roadmap.sh/projects/blog-post-page)
 - [Contact Form](https://sunilkumarkv.github.io/full-stack-projects/FRONTEND/html/Contact-Form/) & [readme link](https://roadmap.sh/projects/contact-form)
 - [Pricing Comparison Table](https://sunilkumarkv.github.io/full-stack-projects/FRONTEND/html/Pricing-Comparison-Table/) & [readme link](https://roadmap.sh/projects/pricing-comparison-table) & [Solution Link](https://roadmap.sh/projects/pricing-comparison-table/solutions?u=64a30444d99c9d6731ac3ab4)
+- [Photo Showcase](https://sunilkumarkv.github.io/full-stack-projects/FRONTEND/html/Photo-Showcase/) & [readme link](https://roadmap.sh/projects/photo-showcase)
 
 ### CSS
 - Coming soon
