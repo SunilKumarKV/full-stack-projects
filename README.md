@@ -14,7 +14,7 @@ My projects and learning journey toward becoming a full-stack developer.
 https://roadmap.sh/projects/photo-showcase/solutions?u=64a30444d99c9d6731ac3ab4)
 
 ### CSS
-- Coming soon
+- Learning
 
 ### JavaScript
 - Coming soon
