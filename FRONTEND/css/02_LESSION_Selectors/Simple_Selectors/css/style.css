@@ -1,0 +1,30 @@
+/* Universal Selector */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Element selector */
+h1 {
+  color: red;
+  text-align: center;
+  margin: 20px 0;
+}
+
+/* Class selector */
+.gray {
+  padding: 10px;
+}
+
+/* ID selector */
+#second {
+  background: lightgray;
+}
+
+/* Grouping selector */
+h2, h3 {
+    color: blue;
+  font-family: sans-serif;
+  margin: 10px;
+}
