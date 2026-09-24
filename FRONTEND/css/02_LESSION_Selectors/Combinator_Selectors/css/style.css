@@ -1,0 +1,17 @@
+/* Combinator Selectors */
+
+article h2 {
+    color: red;
+}
+
+article > h2 {
+    color: blue;
+}
+
+article + h2 {
+    color: green;
+}
+
+article ~ h2 {
+    color: orange;
+}
